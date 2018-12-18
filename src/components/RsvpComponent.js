@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
+import mu from '../mu.api.js';
 
 export default class RsvpComponent extends Component {
   componentDidMount() {
@@ -16,6 +18,9 @@ export default class RsvpComponent extends Component {
     //        console.log(MEETUP_API_RSVP_URL, MEETUP_API_EVENTS_URL);
     //      },
     //    });
+    console.log(window.mu)
+    console.log(document)
+    console.log(document.window)
 
     return (
       <body>
