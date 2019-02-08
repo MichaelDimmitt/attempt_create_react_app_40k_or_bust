@@ -11,6 +11,8 @@ This would have been the case by default if the files were being gzip-ped. Curre
 ~4) remove material-ui~
 <br/>
 ~5) add tachyonss css~
+<br/>
+6) code splitting implementation.
 
 ### Curious what node_modules your react scripts are using?
 `package-lock.json` shows nodemodules used.
